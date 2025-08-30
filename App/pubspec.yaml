@@ -1,0 +1,28 @@
+name: shopping_trolley
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  logging: ^1.2.0
+  cupertino_icons: ^1.0.8
+  http: ^1.2.2
+  provider: ^6.1.2
+  firebase_core: ^2.26.0
+  firebase_database: ^10.4.5
+  cloud_firestore: ^4.15.5
+  firebase_messaging: ^14.8.1
+  flutter_local_notifications: ^18.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
